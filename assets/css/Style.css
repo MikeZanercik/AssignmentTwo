@@ -1,6 +1,19 @@
 body{
     background-image: url(../images/criss-cross.png);
 }
+* {
+    box-sizing: border-box
+}
 header{
     background: white;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+}
+.bodyContainer{
+    width: 100%;
+    max-width: 960px;
+    background: #ffffff;
+    margin-top: 20px;
 }
