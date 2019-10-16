@@ -24,7 +24,7 @@ h3{
     line-height: 50px;
     position:relative;
     bottom: 10vh;
-    color: white !important;
+    color: white;
     background: #4aaaa5;
     text-align: center;
 }
