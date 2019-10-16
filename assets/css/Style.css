@@ -20,12 +20,16 @@ header{
     background: white;
 }
 h3{
-    position:relative;
     width: 300px;
-    height: 70px;
-    color: white;
+    line-height: 50px;
+    position:relative;
+    bottom: 10vh;
+    color: white !important;
     background: #4aaaa5;
     text-align: center;
-    top: 60%;
-    left: 2%;
+}
+
+.portfolioItem {
+    width: 100%;
+    /* min-height: 200px; */
 }
