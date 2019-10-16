@@ -15,6 +15,9 @@ body{
 }
 h1{
     color: #4aaaa5;
+    display: block;
+    border-bottom: solid grey 2px;
+    padding-bottom: 1%;
 }
 header{
     background: white;
