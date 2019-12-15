@@ -1,37 +1,58 @@
-body{
-    background-image: url(../images/criss-cross.png);
-}
-.bodyContainer{
-    background-image: url(../images/plain-white-background.jpg);
-    margin-top: 20px;
-    max-width: 960px;
-    width: 100%;
-    padding: 10px;
-    margin: 20px auto;
-}
 * {
     box-sizing: border-box
 }
-h1{
-    color: #4aaaa5;
-    display: block;
-    border-bottom: solid grey 2px;
-    padding-bottom: 1%;
+body, html{
+    height: 100vh;
+    width: 100vw;
 }
-header{
-    background: white;
+body{
+    background-image: url(../images/blackballs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+.col-12{
+    text-align: center;
+    margin: 10vh auto;
+}
+#welcome{
+    margin-top: 25vh;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh; 
+    text-align: center; 
+    display: block; 
+    background: black;
+}
+h1{
+    font-size: 100px;
+    color: rgb(33, 140, 148);
+}
+h2{
+    color: rgb(33, 140, 148);  
 }
 h3{
-    width: 300px;
-    line-height: 50px;
-    position:relative;
-    bottom: 10vh;
-    color: white;
-    background: #4aaaa5;
-    text-align: center;
+    color: rgb(33, 140, 148);  
 }
-
-.portfolioItem {
-    width: 100%;
-    min-height: 200px;
+.fab{
+    font-size: 400%;
+    margin: 0 5vw;
+    color: rgb(33, 140, 148);
+}
+.fa-chevron-down{
+    font-size: 500%;
+    color: rgb(214, 211, 211);
+    text-align: center;
+    align-content: center;
+}
+.portfolioPic{
+    height: 300px;
+    width: 450px;
+}
+.portfolioItem{
+    text-align: center;
+    padding-bottom: 5vh;
 }
